@@ -10,18 +10,7 @@ function distanceFromHqInFeet(location) {
 function distanceTravelledInFeet(start, destination) {
   return Math.abs(destination - start) * 264;
 }
-// function calculatesFarePrice(start, destination) {
-//   let distance = Math.abs(destination - start) * 264;
-//   if (distance > 400) {
-//     return `cannot travel that far`;
-//   } else if (distance > 2000) {
-//     return `25 dollars`;
-//   } else if (distance > 400) {
-//     return `2 cents per foot`;
-//   } else {
-//     return `cannot travel that far`;
-//   }
-// }
+
 function calculatesFarePrice(start, destination) {
   let distance = Math.abs(destination - start) * 264;
   if (distance > 2500) {
